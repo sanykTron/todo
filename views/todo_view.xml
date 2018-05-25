@@ -7,6 +7,12 @@
 			<form>
 				<header>
 					<!-- BUTTONS GOES HERE-->
+					<button name="do_toggle_done" type="object"
+						string="Toggle Done" class="oe_highlight" />
+
+					<button name="do_clear_done" type="object"
+						string="Clear all Done"/>
+
 				</header>
 				<sheet>
 					<!-- cONTENT GOES HERE -->
