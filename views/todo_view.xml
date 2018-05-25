@@ -7,7 +7,7 @@
 			<form string="To-do task, Por hacer">
 				<group>
 					<field name="name"/>
-					<field name="is_donde"/>
+					<field name="is_done"/>
 					<field name="active" readonly="1"/>
 				</group>
 			</form>
