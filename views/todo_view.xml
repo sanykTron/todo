@@ -4,12 +4,18 @@
 		<field name="name">To-do Task Form</field>
 		<field name="model">todo.task</field>
 		<field name="arch" type="xml">
-			<form string="To-do task, Por hacer">
-				<group>
-					<field name="name"/>
-					<field name="is_done"/>
-					<field name="active" readonly="1"/>
-				</group>
+			<form>
+				<header>
+					<!-- BUTTONS GOES HERE-->
+				</header>
+				<sheet>
+					<!-- cONTENT GOES HERE -->
+					<group>
+						<field name="name" />
+						<field name="is_done" />
+						<field name="active" readony ="1" />
+					</group>
+				</sheet>
 			</form>
 		</field>
 	</record>
